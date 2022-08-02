@@ -14,6 +14,13 @@ h3 {
     margin-top: 100px;
 }
 
+p {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
 header {
     width: 100%; 
     margin-bottom: 50px;
@@ -170,7 +177,7 @@ header > h1 {
     width: 80%;
     color: white;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .parte5 > .frase5 > h2 {
@@ -217,3 +224,133 @@ header > h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25pt;
 }
+
+
+.resposta {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.resposta > h3 {
+    color: tomato;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.resposta > .buton {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.parte6 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.frase6 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parte6 > .frase6 > h2 {
+    color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.parte6 > .frase6 > .obrigado {
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.parte6 > img {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px 40px;
+}
+
+.parte7 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.frase7 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parte7 > .frase7 > h2 {
+    color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.parte7 > img {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px 40px;
+}
+
+
+.parte8 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.frase8 {
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.parte8 > .frase8 > h2 {
+    color: yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.parte8 > img {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 10px 40px;
+}
+
+.parte8 > .frase8 > .obrigado {
+    color: blue;
+    margin-bottom: 50px;
+}
+
+
+.resposta2 {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.resposta2 > h3 {
+    color: tomato;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.resposta2 > .buton {
+    width: 60px;
+    margin-bottom: 10px;
+}
+

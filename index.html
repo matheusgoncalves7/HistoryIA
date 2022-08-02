@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="estilo.css">
     <title>Roisev-land</title>
 </head>
@@ -15,7 +16,7 @@
 
     <div class="parte1">
         <div class="frase1">
-            <h2>O ano é dois mil e trinta e nove, no país Mclen. Planeta Airfalse, onde oitenta e cinco por cento da população do planeta são robôs, enquanto apenas quinze por cento são seres humanos.</h2>
+            <h2>O ano é dois mil e trinta e nove, no país Mclen, planeta Airfalse, onde oitenta e cinco por cento da população do planeta são robôs, enquanto apenas quinze por cento são seres humanos.</h2>
         </div>
         <img src="imagem/maclen.jpg" alt="Cidade de Mclen">
     </div>
@@ -56,9 +57,9 @@
 
     <div class="parte4">
         <div class="frase4">
-            <h2>Anton é considerado foragido pela PRI (Policia Robótica Internacional)
+            <h2>Anton é considerado foragido pela PRI (Polícia Robótica Internacional)
                 Pelo fato de portar um aparelho eletrônico consigo.
-                Mesmo com um um imenso vazio por dentro, Anton tem um amigo robô que se chama Crown, que também está foragido por defender Anton em ações consideradas criminosas perante as leis. 
+                Mesmo com um um imenso vazio por dentro, Anton tem um amigo robô que se chama Crowley, que também está foragido por defender Anton em ações consideradas criminosas perante as leis. 
                 Ambos vivem vagamente por aí, tendo apenas a companhia um do outro.
                 </h2>
         </div>
@@ -67,20 +68,37 @@
 
     <div class="parte5">
         <div class="frase5">
-            <h2>O maior problema de Anton e Crow, é quando a noite caí, pois é o momento que o ERDD (Esquadrão Robótico Dos Deuses) sai para missão em honrra do código "KC94" que diz; <strong>Qualquer que seja o forasteiro, encontraremos e o mataremos, em prol da nossa eternidade como deuses. </strong> Pois sempre antes de toda missão missão, recitam esse código com os olhos tomado de ódio.
+            <h2>O maior problema de Anton e Crowley, é quando a noite cai, pois é o momento que o ERDD (Esquadrão Robótico Dos Deuses) sai para missão em honra do código "KC94" que diz; <strong>Qualquer que seja o forasteiro, encontraremos e o mataremos, em prol da nossa eternidade como deuses. </strong> Pois sempre antes de toda missão missão, recitam esse código com os olhos tomados de ódio.
             </h2>
         </div>
         <img src="imagem/robos-atacam.jpg" alt="Robos atacam">
     </div>
 
-    <h3>Continuação dentro de alguns dias ou a qualquer momento...</h3>
+    <div class="resposta">
+        <h3>Mensagem de Anton para você: Olá, nesse ano de 2039, tudo é muito confuso por aqui, esqueci minha própria idade, me ajude a lembrar!</h3> 
+        <p>Digite a idade de Anton para lembra-lo!</p>
+    
+        <input type="text" name="text1" id="text1" >
+        <input class="buton" type="button" value="Lembrar" onclick="res()">
+    </div>
+    <div id="resultado"></div>
 
+
+    <div class="resposta2">
+        <h3>Digite a senha!!</h3> 
+
+    
+        <input type="text" name="text2" id="text2" >
+        <input class="buton" type="button" value="Lembrar" onclick="res2()">
+    </div>
+    <div id="resultado2"></div>
+
+
+    
     <div class="fantasma">
         <img src="imagem/fantasma.png" alt="">
         <h2>Hell is coming </h2>
     </div>
-
-
 
 </body>
 </html>
