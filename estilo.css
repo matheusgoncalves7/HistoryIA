@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +19,9 @@ p {
     margin-bottom: 10px;
 }
 
+input {
+    border-radius: 5px;
+}
 
 header {
     width: 100%; 
@@ -41,46 +43,21 @@ header > h1 {
     font-size: 32pt;
 }
 
-.parte1 {
+
+.caixa {
     width: 100%;
     margin: auto;
     text-align: center;
 }
 
-.frase1 {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.parte1 > .frase1 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.parte1 > img {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 10px 40px;
-}
-
-.parte2 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.frase2 {
+.frase {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
-.parte2 > .frase2 > h2 {
+.caixa > .frase > h2 {
     color: yellow;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
@@ -88,118 +65,24 @@ header > h1 {
     margin-top: 20px;
 }
 
-.parte2 > img {
+.caixa > img {
     width: 80%;
     height: 60vh;
     margin: 0 auto;  border-radius: 10px 40px;  
 }
 
-.parte3 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.frase3 {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.parte3 > .frase3 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    margin-top: 20px;
-}
-
-.parte3 > img {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;    border-radius: 10px 40px;
-}
-.parte3 > .parte3list {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.parte3 > .parte3list > h2 > ul {
-    list-style: inside;
-}
-
-.parte3 > .parte3list > h2 > ul > li {
-    text-align:start;
+.caixa > .list > h2 > ul > li {
+    list-style: inside;   
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
     font-weight: 400;
     color: yellow;
-}
-
-.parte4 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.frase4 {
-    width: 80%;
-    color: white;
-    margin: 0 auto;
-}
-
-.parte4 > .frase4 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.parte4 > img {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 10px 40px;
-}
-
-
-.parte5 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.frase5 {
-    width: 80%;
-    color: white;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.parte5 > .frase5 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.parte5 > img {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 10px 40px;
 }
 
 .fantasma  {
     width: 100%;
     text-align: end;
-}
-    
+}   
 
 .fantasma img {
     max-width: 100%;
@@ -223,134 +106,53 @@ header > h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25pt;
+    margin-bottom: 15px;
 }
 
-
-.resposta {
+.mensagem {
     margin-top: 50px;
     text-align: center;
     max-width: 100%;
 }
 
-.resposta > h3 {
+.mensagem > h3 {
     color: tomato;
     font-family: cursive;
     margin-bottom: 10px;
 }
 
-.resposta > .buton {
-    width: 60px;
+.mensagem > .buton {
+    width: 70px;
     margin-bottom: 10px;
 }
 
-.parte6 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    margin-top: 30px;
-}
 
-.frase6 {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.parte6 > .frase6 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.parte6 > .frase6 > .obrigado {
+.caixa > .frase > .obrigado {
     color: blue;
     margin-bottom: 50px;
 }
 
-.parte6 > img {
-    width: 80%;
-    height: 70vh;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 10px 40px;
-}
-
-.parte7 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.frase7 {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.parte7 > .frase7 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.parte7 > img {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 10px 40px;
-}
-
-
-.parte8 {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.frase8 {
-    width: 80%;
+footer {
     color: white;
     margin: 0 auto;
-    margin-top: 20px;
-}
-
-.parte8 > .frase8 > h2 {
-    color: yellow;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.parte8 > img {
-    width: 80%;
-    height: 60vh;
-    margin: 0 auto;
-    margin-top: 15px;
-    border-radius: 10px 40px;
-}
-
-.parte8 > .frase8 > .obrigado {
-    color: blue;
-    margin-bottom: 50px;
-}
-
-
-.resposta2 {
-    margin-top: 50px;
     text-align: center;
-    max-width: 100%;
+    width: 100%;
+    background-color: tomato;
+    font-size: 15pt;
 }
 
-.resposta2 > h3 {
-    color: tomato;
-    font-family: cursive;
-    margin-bottom: 10px;
+footer > a {
+    color: black;
 }
 
-.resposta2 > .buton {
-    width: 60px;
-    margin-bottom: 10px;
+#caixainstagram {
+    width: 100%;
+    text-align: center;
+
 }
 
+.imginsta {
+    border-radius: 50%;
+    width: 50px;
+    
+}
